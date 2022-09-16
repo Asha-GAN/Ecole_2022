@@ -13,4 +13,4 @@
 - 프로젝트 주소: [Click](https://kyungsungcovid.netlify.app)
 
 <br>
-[https://asha-gan.github.io/](https://asha-gan.github.io/)
+https://asha-gan.github.io/
