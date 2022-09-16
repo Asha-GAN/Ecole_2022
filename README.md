@@ -1,16 +1,4 @@
 # asha-gan.github.io
 
-✨Portfolio✨
-===========
-
-해당 Portfolio에는
-### 저에 대한 정보
-### 저의 소개
-### 연락처
-### 제가 사용할 수 있는 언어
-### 프로젝트 경험
-에 대해 나와있습니다!
-
-<br>
-Github를 처음 사용하여 미숙한 부분이 있습니다.
-앞으로 개선해 나가며 발전시킬 예정입니다.
+해당 Portfolio 는 **HTML5**, **CSS3**을 기반으로 작성된 문서입니다.
+추가로 사용된 아이콘은 [홈페이지](https://www.flaticon.com/kr/free-icons/whatsapp)를 사용하였습니다.
