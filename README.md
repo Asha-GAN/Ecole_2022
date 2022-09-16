@@ -11,3 +11,6 @@
 - 프로젝트 기간: ```2020-10 ~ 2020-12```
 - 프로젝트 내용: 부산 남구청에서 공개하는 코로나 확진 정보를 통해 경성대학교 주변에서 발생한 코로나 확진자에 대한 정보를 공유하여 코로나 확진을 예방하기 위한 목적으로 제작
 - 프로젝트 주소: [Click](https://kyungsungcovid.netlify.app)
+
+<br>
+[https://asha-gan.github.io/](https://asha-gan.github.io/)
