@@ -1,0 +1,223 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>경성대학교 소개</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+   li { list-style:none; }
+  .picture { list-style:none; padding:0; margin:0; }
+  .picture li { float:left; width:50%;}
+  .picture li a {display:block; margin:5px; border: 1px }
+  .picture li img { display:block; width:50%;  height:auto;}
+  .picture li img:hover { display:block; width:100%;  height:auto;} 
+</style>
+</head>
+
+<body>
+<div data-theme="b">
+	<div data-role="page" id="home" style="background-color: white;">
+		<div data-role="header" data-theme="b">
+			<h1>KyungSung University</h1>
+		</div>
+		<div data-role="content" style="text-align:center">
+				<img src="img/경성대마크_4.jpg" >
+			<ul data-role="listview" data-inset="true">
+				<li><a href="#intro">경성대 소개</a></li>
+				<li><a href="#movie" data-rel="dialog">경성대 홍보영상</a></li>
+				<li><a href="#wizard3-1" data-rel="dialog">경성대 개설학과</a></li>
+				<li><a href="#gallery">경성 갤러리</a></li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>제작자 유가인</h1>
+		</div>
+	</div>
+	
+	<div data-role="page" id="intro" data-theme="b">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>			
+			<h1>경성대 소개</h1>
+		</div>
+		<div data-role="content">
+				<div style="text-align:center">
+				</div>			
+			<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>기본 정보</h3>
+                    <ul>
+                        <li>사립 4년제 대학교</li>
+                        <li>주소 - 부산광역시 남구 수영로 309</li>
+                        <li>전화 - 051-663-4114</li>
+                    </ul>
+				</div>
+				<div data-role="collapsible">
+					<h3>사이트 정보</h3>
+                    <ul>
+                        <li>공식홈 - <a href="https://kscms.ks.ac.kr/kor/Main.do">바로가기</a></li>
+                        <li>입학처 - <a href="https://kscms.ks.ac.kr/ipsi/intro.do">바로가기</a></li>
+                        <li>대학원 - <a href="https://cms1.ks.ac.kr/graduate/Main.do">바로가기</a></li>
+                    </ul>
+                </div>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>제작자 - 유가인</h1>
+		</div>		
+	</div>
+	
+	<div data-role="page" id="movie" data-theme="b">
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<h1>경성대 홍보영상</h1>
+		</div>
+		<div data-role="content" >
+            <div class="ui-bar ui-bar-a">공식 홍보영상1</div><br/>
+			<li><iframe width="560" height="315" src="https://www.youtube.com/embed/sxosP7m_fCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+			<div class="ui-bar ui-bar-a">공식 홍보영상2</div><br/>
+			<li><iframe width="560" height="315" src="https://www.youtube.com/embed/Gx24713g10c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li><br/>
+		</div>
+		<div data-role="footer" data-theme="b">
+		</div>
+	</div>
+
+    <div data-role="page" id="wizard3-1" data-theme="b">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>			
+			<h1>경성대 개설학과</h1>
+		</div>
+		<div data-role="content">
+				<div  style="text-align:center">
+				</div>			
+			<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+				<div data-role="collapsible">
+					<h3>인문</h3>
+                    <ul>
+                        <li>경영학과</li>
+                        <li>경제금융물류학부</li>
+                        <li>경찰행정학과</li>
+                        <li>광고홍보학과</li>
+                        <li>국제무역통상학과</li>
+                        <li>글로컬문화학부	</li>
+                        <li>문헌정보학과</li>
+                        <li>미디어커뮤니케이션학과</li>
+                        <li>법학과</li>
+                        <li>사회복지학과</li>
+                        <li>심리학과</li>
+                        <li>영어영문학과</li>
+                        <li>외식서비스경영학전공</li>
+                        <li>유아교육과</li>
+                        <li>윤리교육과</li>
+                        <li>인문문화학부</li>
+                        <li>중국학과</li>
+                        <li>호텔관광경영학전공</li> 
+                        <li>회계학과</li>
+                        <li></li>  
+                        <li></li>
+                        <li></li> 
+                        <li></li>
+                        <li></li> 
+                        <li></li>
+                        <li></li> 
+                        <li></li>
+                        <li></li> 
+                        <li></li>
+                        <li></li> 
+                        <li></li>
+                        <li></li>                 
+                    </ul>
+				</div>
+				<div data-role="collapsible">
+					<h3>자연</h3>
+                    <ul>
+                        <li>간호학과</li>
+                        <li>건축학과</li>
+                        <li>기계자동차공학과</li>
+                        <li>도시공학과</li>  
+                        <li>메카트로닉스공학과</li>
+                        <li>물리치료학과</li> 
+                        <li>반려생물학과</li>
+                        <li>빅데이터응용통계학과</li> 
+                        <li>산업경영공학과</li>
+                        <li>소프트웨어학과</li> 
+                        <li>스마트바이오학과</li>
+                        <li>식품생명공학과</li> 
+                        <li>식품영양학과</li>
+                        <li>신소재공학과</li> 
+                        <li>실내건축학과</li>
+                        <li>약학과</li>  
+                        <li>에너지과학과</li>
+                        <li>응용화학과</li> 
+                        <li>전기공학과</li>
+                        <li>정보통신공학과</li> 
+                        <li>제약공학과</li>
+                        <li>컴퓨터공학과</li> 
+                        <li>토목공학과</li>
+                        <li>화장품학과</li> 
+                        <li>환경공학과</li>
+                        <li>AI수리학과</li>
+                    </ul>
+                </div>
+                <div data-role="collapsible">
+					<h3>예체능</h3>
+                    <ul>
+                        <li>미디어콘텐츠학과</li>  
+                        <li>연극영화학부-영화</li>
+                        <li>영상애니메이션학부</li> 
+                        <li>패션디자인학과</li>
+                        <li>AI미디어학과</li> 
+                        <li>미디어콘텐츠학과</li>
+                        <li>영상애니메이션학부</li> 
+                        <li>공예디자인학과-가구디자인</li>
+                        <li>공예디자인학과-금속공예디자인</li> 
+                        <li>공예디자인학과-도자공예</li>
+                        <li>공예디자인학과-텍스타일디자인</li> 
+                        <li>디자인학부-산업디자인</li>
+                        <li>디자인학부-시각디자인</li>
+                        <li>사진학과</li>  
+                        <li>스포츠건강학과</li>
+                        <li>연극영화학부-뮤지컬</li> 
+                        <li>연극영화학부-연극</li>
+                        <li>연극영화학부-영화</li> 
+                        <li>음악학부-관현악	</li>
+                        <li>음악학부-성악</li> 
+                        <li>음악학부-작곡</li>
+                        <li>음악학부-피아노</li> 
+                        <li>현대미술학과</li>
+                    </ul>
+                </div>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>제작자 - 유가인</h1>
+		</div>		
+	</div>
+
+	<div data-role="page" id="gallery"  data-theme="b">
+		<div data-role="header" data-position="fixed"  data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>
+			<h1>경성 갤러리</h1>
+		</div>
+		<div data-role="content">
+            <ul class="picture">
+				<li><a href="img/1.jpg" rel="external"><img src="img/1.jpg" /></a></li>	
+				<li><a href="img/2.jpg" rel="external"><img src="img/2.jpg" /></a></li>	
+				<li><a href="img/3.jpg" rel="external"><img src="img/3.jpg" /></a></li>	
+				<li><a href="img/4.jpg" rel="external"><img src="img/4.jpg" /></a></li>	
+				<li><a href="img/5.jpg" rel="external"><img src="img/5.jpg" /></a></li>	
+				<li><a href="img/6.jpg" rel="external"><img src="img/6.jpg" /></a></li>	
+				<li><a href="img/7.jpg" rel="external"><img src="img/7.jpg" /></a></li>	
+				<li><a href="img/8.jpg" rel="external"><img src="img/8.jpg" /></a></li>	
+				<li><a href="img/9.jpg" rel="external"><img src="img/9.jpg" /></a></li>	 
+				<li><a href="img/10.jpg" rel="external"><img src="img/10.jpg" /></a></li>
+            </ul>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>제작자 유가인</h1>
+		</div>		
+	</div>
+</div>	
+</body>
+</html>
