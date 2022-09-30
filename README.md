@@ -1,6 +1,6 @@
 # 🔎Ecole 2022
 
-2회차 [Click](https://asha-gan.github.io/Ecole_2022/ecloe_2/index.html)
+2회차 [Click](https://asha-gan.github.io/Ecole_2022/ecole_2/index.html)
 -------------------------------
 - 해당 Portfolio 는 ```HTML5```, ```CSS3```을 기반으로 작성된 문서입니다.
 - 사용된 아이콘은 [홈페이지](https://www.flaticon.com/kr/free-icons/whatsapp)에서 가져와 사용하였습니다.
@@ -14,7 +14,7 @@
 <br>
 
 
-3회차 [Click](https://asha-gan.github.io/Ecole_2022/ecloe_3/index.html)
+3회차 [Click](https://asha-gan.github.io/Ecole_2022/ecole_3/index.html)
 -------------------------------
 - 경성대학교에 대한 소개 문서입니다.
 - 경성대에 대한 기본정보(주소, 전화번호, 사이트), 홍보영상, 개설학과 및 경성 갤러리를 기재해놓았습니다.
